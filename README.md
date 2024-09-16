@@ -1,1 +1,1 @@
-# no-console
+# noconsolejs
