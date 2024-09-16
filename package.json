@@ -1,6 +1,6 @@
 {
   "name": "noconsolejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Disable all console statements in production.",
   "main": "index.js",
   "files": [
