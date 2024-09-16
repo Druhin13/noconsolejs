@@ -1,5 +1,8 @@
 
+![noconsolejs-icon](https://github.com/user-attachments/assets/6fde4366-c34f-4552-9c8b-678a7061d96c)
+
 # noconsolejs
+
 
 [![npm version](https://img.shields.io/npm/v/noconsolejs.svg)](https://www.npmjs.com/package/noconsolejs)
 [![license](https://img.shields.io/npm/l/noconsolejs.svg)](https://github.com/Druhin13/noconsolejs/blob/main/LICENSE)
@@ -25,7 +28,7 @@ Now, do you really want your users — or worse, your team — to see that? Yeah
 
 ## Features (ahem, ahem)
 
-- **Zero dependencies**: Because we’re all trying to live simpler lives and avoid another `node_modules` folder the size of a small planet. Plus, I didn’t *need* to add any, so I didn’t. You're welcome.
+- **Zero dependencies**: Because we’re all trying to live simpler lives and avoid another `node_modules` folder the size of a small planet. Plus, I didn’t *need* to add any, so — You're Welcome.
 - **Auto-magically erases your console blunders like a "guilty" browser tab you close when someone walks by**: `console.log`, `console.warn`, `console.error`, `console.info`, `console.debug` — and whatever else you thought was helping — gone; just like your dignity after debugging for 6 hours straight.
 - **Works anywhere**: Browser, Node.js, that one ancient server you forgot about, or even in the depths of outer space (because if JavaScript is running there, it’s probably doing something weird — but at least *noconsolejs* can hide the console statements.)
 
@@ -53,6 +56,7 @@ Boom. No more consoles. It’s like they never happened. No one will ever know y
 ### For my fellow ~Noobies~ Browser Folks
 Want this in the browser? Sure thing! Just drop this `<script>` tag into your HTML, ideally in the `<head>`. (You know, like putting your brain in the driver’s seat before making bad life choices. Same idea — keep things in the right place.)
 ```js
+<!-- noconsolejs -->
 <script src="https://cdn.jsdelivr.net/gh/Druhin13/noconsolejs@master/index.js"></script>
 ```
 
