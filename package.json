@@ -1,8 +1,11 @@
 {
   "name": "noconsolejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Disable all console statements in production.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "author": "Druhin Tarafder",
   "license": "MIT"
 }
