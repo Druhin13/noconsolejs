@@ -1,11 +1,16 @@
 
 # noconsolejs
 
+[![npm version](https://img.shields.io/npm/v/noconsolejs.svg)](https://www.npmjs.com/package/noconsolejs)
+[![license](https://img.shields.io/npm/l/noconsolejs.svg)](https://github.com/Druhin13/noconsolejs/blob/main/LICENSE)
+
+<br>
 
 ## Tired of people judging you for leaving *console.logs* in production?
 
 Yeah, me too.
 
+<br>
 
 ## Here's why you absolutely need this
 
@@ -15,12 +20,16 @@ Most of us (*aka everyone*) use `console.log` like it’s the answer to all of l
 
 Now, do you really want your users — or worse, your team — seeing that? Yeah, didn’t think so.
 
+<br>
+
 
 ## Features (ahem, ahem)
 
 - **Zero dependencies**: Because we’re all trying to live simpler lives and avoid another `node_modules` folder the size of a small planet. Plus, I didn’t `need` to add any, so I didn’t. You're welcome.
 - **Auto-magically erases your console blunders like a "guilty" browser tab you close when someone walks by**: `console.log`, `console.warn`, `console.error`, `console.info`, `console.debug` — and whatever else you thought was helping — gone; just like your dignity after debugging for 6 hours straight.
 - **Works anywhere**: Browser, Node.js, that one ancient server you forgot about, or even in the depths of outer space (because if JavaScript is running there, it’s probably doing something weird — but at least *noconsolejs* can hide the console statements.
+
+<br>
 
 
 ## Installation
@@ -39,14 +48,15 @@ disableConsole();
 
 Boom. No more consoles. It’s like they never happened. No one will ever know you needed 39 logs to figure out how promises work.
 
+<br>
 
 ### For my fellow ~Noobies~ Browser Folks
-Want this in the browser? You got it. Sure thing! Just drop this `<script>` tag into your HTML, ideally in the `<head>`. (You know, like putting your brain in the driver’s seat before making bad life choices. Same idea — keep things in the right place.)
+Want this in the browser? Sure thing! Just drop this `<script>` tag into your HTML, ideally in the `<head>`. (You know, like putting your brain in the driver’s seat before making bad life choices. Same idea — keep things in the right place.)
 ```js
 <script src="https://cdn.jsdelivr.net/gh/Druhin13/noconsolejs@main/index.min.js"></script>
 ```
 
-
+<br>
 
 
 ## Usage
@@ -83,10 +93,14 @@ console.warn("No one will ever see your shame.");
 ```
 
 
+<br>
+
 ## Will this Fix your Code?
 
 Haha, **No**. Absolutely not. Your code is still a hot mess. But at least people won’t be able to tell from the console. It’s like sweeping everything under the rug, except no one trips over it. You’ll still need to actually fix your code at some point, but with *noconsolejs*, you can take your time. No one’s looking — for now, at least.
 
+<br>
+
 
 ## License (Blah Blah.. the Legal Stuff)
-Yeah, yeah, it’s MIT. Do whatever you want with it. Just don't blame me when your app breaks because you relied on console.log to do all your debugging.
+Yeah, yeah, it’s MIT. Do whatever you want with it. Just don't blame me when your app breaks because you relied on `console.log` to do all your debugging.
