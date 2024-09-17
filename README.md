@@ -6,6 +6,8 @@
 
 [![npm version](https://img.shields.io/npm/v/noconsolejs.svg)](https://www.npmjs.com/package/noconsolejs)
 [![license](https://img.shields.io/npm/l/noconsolejs.svg)](https://github.com/Druhin13/noconsolejs/blob/main/LICENSE)
+![npm](https://img.shields.io/npm/dt/noconsolejs)
+
 
 <br>
 
@@ -45,6 +47,7 @@ npm install noconsolejs
 ```
 
 ```js
+// noconsolejs
 const disableConsole = require('noconsolejs');
 disableConsole();
 ```
@@ -55,7 +58,7 @@ Boom. No more consoles. It’s like they never happened. No one will ever know y
 
 ### For my fellow ~Noobies~ Browser Folks
 Want this in the browser? Sure thing! Just drop this `<script>` tag into your HTML, ideally in the `<head>`. (You know, like putting your brain in the driver’s seat before making bad life choices. Same idea — keep things in the right place.)
-```js
+```html
 <!-- noconsolejs -->
 <script src="https://cdn.jsdelivr.net/gh/Druhin13/noconsolejs@master/index.js"></script>
 ```
