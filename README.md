@@ -7,6 +7,7 @@
 [![npm version](https://img.shields.io/npm/v/noconsolejs.svg)](https://www.npmjs.com/package/noconsolejs)
 [![license](https://img.shields.io/npm/l/noconsolejs.svg)](https://github.com/Druhin13/noconsolejs/blob/main/LICENSE)
 ![npm](https://img.shields.io/npm/dt/noconsolejs)
+[![](https://data.jsdelivr.com/v1/package/gh/Druhin13/noconsolejs/badge?style=rounded)](https://www.jsdelivr.com/package/gh/Druhin13/noconsolejs)
 
 
 <br>
@@ -19,7 +20,7 @@ Yeah, me too.
 
 ## Here's why you absolutely need this
 
-Because your code is embarrassing. There, I said it. I mean, using console.log to debug is fine when it’s just you and your code in the privacy of your local environment. But once it’s out there in the wild, it’s like leaving the house without your pants on. People *will* notice, and they *will* judge you. So save yourself the awkwardness and let **noconsolejs** sweep those logs under the rug, where they belong.
+Because your code is embarrassing. There, I said it. I mean, using `console.log` to debug is fine when it’s just you and your code in the privacy of your local environment. But once it’s out there in the wild, it’s like leaving the house without your pants on. People *will* notice, and they *will* judge you. So save yourself the awkwardness and let **noconsolejs** sweep those logs under the rug, where they belong.
 
 Most of us (*aka everyone*) use `console.log` as if it’s the answer to all of life’s problems. But guess what? It’s not. It's more like a 'Post-It' note you slapped on your code because you couldn't figure out what went wrong.
 
@@ -104,7 +105,7 @@ console.warn("No one will ever see your shame.");
 
 ## Will this Fix your Code?
 
-Haha, **No**. Absolutely not. Your code is still a hot mess. But at least people won’t be able to tell from the console. It’s like sweeping everything under the rug, except no one trips over it. You’ll still need to actually fix your code at some point, but with *noconsolejs*, you can take your time. No one’s looking — for now, at least.
+Haha, **No**. Absolutely not. Your code is still a hot mess. But at least people won’t be able to tell from the console. It’s like sweeping everything under the rug, except no one trips over it. You’ll still need to actually fix your code at some point, but with **noconsolejs**, you can take your time. No one’s looking — for now, at least.
 
 <br>
 
